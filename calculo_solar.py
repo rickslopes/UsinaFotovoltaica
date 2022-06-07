@@ -14,7 +14,7 @@ class CalculoUsinaSolar:
     def potencia_placas(self):
         return self._potencia_placas
 
-    def tranforma_em_kwp(self):
+    def transforma_em_kwp(self):
         quilowatt_dia = self.kwh / 30.416666667
         self.kwp = (quilowatt_dia / self.indice_solar) / self.eficiencia_placas
         return self.kwp
