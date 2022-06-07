@@ -4,7 +4,7 @@ from calculo_solar import Kwh, Kwp
 
 kwh = Kwh(700, 440, 5.02, 0.95) #crie um objeto passando o "Valor Kwh desejado", "Potencia das Placas", "indice solarimetrico", 
                                 #"eficiencia das placas" nesse untimo em % ou seja 0.95 = 95% 
-kwh.tranforma_em_kwp() #Metodo que transforma Kwh em Kwp
+kwh.transforma_em_kwp() #Metodo que transforma Kwh em Kwp
 kwh.qtd_placas() #Chama o Metodo que calcula qtd de placas
 kwh.kwp_final() #Chama o Metodo que apresenta quanto em Kwp será entregue 
 #kwh.imprime_kwh() -> #Se quiser usar para teste primeiro copie e cole o metodo imprime abaixo para a classe pai.
